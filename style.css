@@ -98,7 +98,7 @@ button.try-it-free:hover {
 
 /* middle section */
 .middle-section{
-    padding: 10% 5% 5% 5%;
+    padding: 10% 5% 15% 5%;
 }
 
 .middle-section img {
@@ -148,3 +148,27 @@ button.try-it-free:hover {
 /* end of middle section */
 
 /* bottom section */
+
+.bottom-section{
+    background-color: hsl(192, 100%, 9%);
+    padding: 0 5% 5% 20%;
+}
+
+.ready-to-build {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(49, 49, 49, 0.192);
+    width:70%;
+    text-align: center;
+    padding: 60px;
+    position: relative;
+    bottom: 130px
+}
+
+.ready-to-build h1 {
+    margin-bottom: 30px;
+}
+
+.ready-to-build button {
+    box-shadow: 0px 0px 5px rgba(49, 49, 49, 0.233);
+}
