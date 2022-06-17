@@ -1,0 +1,150 @@
+/* general */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    color: hsl(192, 100%, 9%);
+}
+
+.flex-container {
+    display: flex;
+}
+
+button.Get-started-for-free {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 20px 70px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 700;
+}
+
+button.Get-started-for-free:hover {
+    background-color: hsl(322, 100%, 72%);
+}
+
+/* end of general */
+
+
+/* top section */
+.top-section{
+    background-image: url(/imgs/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+
+}
+
+.top-div{
+    padding: 5%;
+}
+
+button.try-it-free{
+    background-color: white;
+    color: hsl(192, 100%, 9%);
+    position: relative;
+    float: right;
+    padding: 12px 52px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 700;
+    box-shadow: 0px 0px 5px rgba(49, 49, 49, 0.233);
+
+}
+
+button.try-it-free:hover {
+    box-shadow: 0px 0px 10px rgba(49, 49, 49, 0.233);
+
+}
+
+/* flex div in top section */
+
+.flex-top img{
+    width: 50%
+}
+.flex-top {
+    margin: 55px 0;
+}
+
+.grid-top-text {
+    display: grid;
+    padding-right: 100px;
+    align-content: center;
+
+}
+
+.grid-top-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 30px
+}
+
+.grid-top-text p {
+    font-weight: 400;
+    color: hsl(192, 100%, 9%);
+    box-sizing: border-box;
+    margin-bottom: 30px
+}
+
+/* end of flex div in top section */
+/* end of top section */
+
+
+/* middle section */
+.middle-section{
+    padding: 10% 5% 5% 5%;
+}
+
+.middle-section img {
+    width: 40%;
+}
+
+.middle-section .flex-mid {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(49, 49, 49, 0.192);
+    padding: 50px 30px 80px 110px;
+    overflow: auto;
+    margin-bottom: 40px;
+}
+
+.grid-mid-text {
+    display: grid;
+    align-content: center;
+
+}
+
+.grid-mid-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 15px
+}
+
+.grid-mid-text p {
+    color: hsl(0, 1%, 51%);
+    font-weight: 500;
+}
+
+
+/* grow together and your users */
+
+.grid-mid-top-text,
+.grid-mid-bottom-text {
+    padding-right: 150px;
+}
+
+/* flowing conversatins */
+
+.flowing-conversations img {
+    padding-right: 140px;
+}
+
+/* end of middle section */
+
+/* bottom section */

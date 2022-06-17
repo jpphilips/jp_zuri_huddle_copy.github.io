@@ -1,1 +1,1 @@
-# jp_zuri_webpage_copy_1.github.io
+# jp_zuri_huddle_copy.github.io
