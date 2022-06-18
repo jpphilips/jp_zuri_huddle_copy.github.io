@@ -104,7 +104,10 @@ button.try-it-free:hover {
 }
 
 .middle-section img {
-    width: 40%;
+    width: 100%;
+}
+.middle-section .img {
+    width: 100%;
 }
 
 .middle-section .flex-mid {
@@ -143,7 +146,7 @@ button.try-it-free:hover {
 
 /* flowing conversatins */
 
-.flowing-conversations img {
+.flowing-conversations .img {
     padding-right: 140px;
 }
 
@@ -240,7 +243,7 @@ td {
 
 @media screen and (max-width: 775px){
     .logo-div img {
-    width: 140px;
+    width: 30%;
     }
 
     button.try-it-free {
@@ -271,12 +274,12 @@ td {
     .middle-section {
         padding: 10% 5% 50% 5%;
     }
-    .middle-section img {
+    /* .middle-section img {
         width: 340px;
         height: 300px;
-    }
-    .grid-mid-text h1{
-        font-size: 20px;
+    } */
+    .grid-mid-text h1, .ready-to-build h1{
+        font-size: 22px;
     }
     .middle-section .flex-mid {
         padding: 60px 40px;
@@ -288,7 +291,7 @@ td {
         padding: 15% 0 0 0;
     }
 
-    .flex-container img{
+    .flex-container .img{
         padding-right: unset;
     }
 
