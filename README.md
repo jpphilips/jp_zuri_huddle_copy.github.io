@@ -1,4 +1,4 @@
 # jp_zuri_huddle_copy.github.io
 
-Zuri Task
+Zuri Task.
 Responsive copy of Huddle page.
