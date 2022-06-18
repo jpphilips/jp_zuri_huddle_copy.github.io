@@ -257,7 +257,7 @@ td {
     }
 
     .grid-top-text h1 {
-        font-size: 170%
+        font-size: 31px;
     }
 
     .flex-top img{
@@ -272,9 +272,12 @@ td {
         padding: 10% 5% 50% 5%;
     }
     .middle-section img {
-        width: unset;
+        width: 340px;
+        height: 300px;
     }
-
+    .grid-mid-text h1{
+        font-size: 20px;
+    }
     .middle-section .flex-mid {
         padding: 60px 40px;
     }
