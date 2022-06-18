@@ -243,7 +243,7 @@ td {
 
 @media screen and (max-width: 775px){
     .logo-div img {
-    width: 30%;
+    width: 33%;
     }
 
     button.try-it-free {
@@ -274,15 +274,12 @@ td {
     .middle-section {
         padding: 10% 5% 50% 5%;
     }
-    /* .middle-section img {
-        width: 340px;
-        height: 300px;
-    } */
-    .grid-mid-text h1, .ready-to-build h1{
+
+    .grid-mid-text h1 {
         font-size: 22px;
     }
     .middle-section .flex-mid {
-        padding: 60px 40px;
+        padding: 60px 35px;
     }
 
     .grid-mid-top-text,
@@ -301,7 +298,10 @@ td {
         padding: 13% 5%;
         bottom: 8rem;
     }
+/*
+    .ready-to-build button{
 
+    } */
     .footer-logo {
         width: 175px;
         padding: unset;
