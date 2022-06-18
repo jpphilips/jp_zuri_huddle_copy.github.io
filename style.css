@@ -33,9 +33,7 @@ button.Get-started-for-free:hover {
 /* end of general */
 
 /* logo div */
-.logo-div img {
-    width: 15%;
-}
+
 
 /* top section */
 .top-section{
@@ -58,8 +56,6 @@ button.try-it-free{
     border: none;
     font-weight: 700;
     box-shadow: 0px 0px 5px rgba(49, 49, 49, 0.233);
-    width: 15%;
-
 }
 
 button.try-it-free:hover {
@@ -72,6 +68,7 @@ button.try-it-free:hover {
 .flex-top img{
     width: 54%;
     height:auto;
+    margin:auto;
 }
 .flex-top {
     margin: 55px 0;
@@ -87,7 +84,7 @@ button.try-it-free:hover {
 .grid-top-text h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 200%;
     margin-bottom: 30px
 }
 
@@ -157,6 +154,7 @@ button.try-it-free:hover {
 
 .bottom-section{
     background-color: hsl(192, 100%, 9%);
+    padding: 0 5%;
 }
 
 .ready-to-build {
@@ -165,7 +163,7 @@ button.try-it-free:hover {
     box-shadow: 0px 0px 10px rgba(49, 49, 49, 0.192);
     width:50%;
     text-align: center;
-    padding: 60px;
+    padding: 5%;
     position: relative;
     bottom: 10rem;
     margin:auto;
@@ -177,28 +175,153 @@ button.try-it-free:hover {
 
 .ready-to-build button {
     box-shadow: 0px 5px 10px rgba(49, 49, 49, 0.205);
-    font-size: 19px;
-}
-.bottom-texts{
-    padding: 0px 7%;
-    position: relative;
-    bottom: 5rem;
-    color: #fff;
-    font-size: 17px;
-    display: flex;
+    font-size: 16px;
 }
 
 .footer-logo {
-    width: 19%;
+    width: 17%;
     height: auto;
-    margin-bottom: 2%;
-}
-
-.lpe span {
-    display: block;
     padding: 1% 0;
+    padding: 0px 7%;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 5rem;
 }
 
-i {
-    padding-right: 2%;
+.bottom-texts{
+    padding: 0px 7%;
+    color: #fff;
+    font-size: 17px;
+    display: flex;
+    position: relative;
+    bottom: 5rem;
+}
+
+.lpe{
+    flex: .9;
+}
+
+.bottom-links{
+    flex: .4;
+}
+.socials {
+    flex: .4 ;
+}
+
+.bottom-links span{
+    display: block;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 90%;
+}
+
+td {
+    vertical-align: top;
+    padding-right: 25px;
+    border-bottom: 20px solid transparent;
+}
+
+.location-icon img{
+    margin-top: 6px;
+}
+
+.copyright {
+    font-size: 11px;
+    text-align: right;
+    position: relative;
+    color: #fff;
+    bottom: 122px;
+    right: 86px;
+    }
+
+
+/* responsive */
+
+@media screen and (max-width: 600px){
+    .logo-div img {
+    width: 30%;
+    }
+
+    button.try-it-free {
+        padding: 8px 33px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .grid-top-text {
+        padding: 10%;
+        margin-bottom: 25px;
+    }
+
+    .grid-top-text h1 {
+        font-size: 170%
+    }
+
+    .flex-top img{
+        width: 90%;
+    }
+
+    .grow-together, .your-users {
+        flex-direction: column-reverse;
+    }
+
+    .middle-section {
+        padding: 10% 5% 50% 5%;
+    }
+    .middle-section img {
+        width: unset;
+    }
+
+    .middle-section .flex-mid {
+        padding: 13% 12%;
+    }
+
+    .grid-mid-top-text,
+    .grid-mid-mid-text,
+    .grid-mid-bottom-text {
+        padding: 15% 0 0 0;
+    }
+
+    .flex-container img{
+        padding-right: unset;
+    }
+
+    .ready-to-build {
+        width: unset;
+        font-size: 15px;
+        padding: 13% 5%;
+        bottom: 8rem;
+    }
+
+    .footer-logo {
+        width: 40%;
+        padding: unset;
+    }
+
+    .bottom-texts {
+        padding: unset;
+        flex-direction: column;
+    }
+
+    td {
+        padding-right: 17px;
+    }
+
+    .lpe, .bottom-links.two {
+        margin-bottom: 30px;
+    }
+
+    .socials {
+        text-align: center;
+    }
+
+    .copyright {
+        text-align: center;
+        bottom: 68px;
+        right: unset;
+    }
 }
