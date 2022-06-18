@@ -252,7 +252,7 @@ td {
         text-align: center;
     }
     .grid-top-text {
-        padding: 43px;
+        padding-bottom: 43px;
         margin-bottom: 25px;
     }
 
@@ -276,7 +276,7 @@ td {
     }
 
     .middle-section .flex-mid {
-        padding: 60px 48px;
+        padding: 60px 40px;
     }
 
     .grid-mid-top-text,
@@ -297,7 +297,7 @@ td {
     }
 
     .footer-logo {
-        width: 40%;
+        width: 175px;
         padding: unset;
     }
 
