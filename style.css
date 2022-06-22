@@ -247,8 +247,16 @@ td {
     width: 33%;
     }
 
+    .flex-top {
+        margin-bottom: 20px;
+    }
+
     button.try-it-free {
-        padding: 10px 35px;
+        padding: 7px 25px;
+    }
+
+    button.Get-started-for-free{
+        padding: 15px 55px;
     }
 
     .flex-container {
@@ -256,12 +264,12 @@ td {
         text-align: center;
     }
     .grid-top-text {
-        padding-bottom: 43px;
+        padding: 0px 3px 30px 3px;
         margin-bottom: 25px;
     }
 
     .grid-top-text h1 {
-        font-size: 31px;
+        font-size: 29px;
     }
 
     .flex-top img{
